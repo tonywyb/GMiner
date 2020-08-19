@@ -1,5 +1,19 @@
 # 6111-proj3 README
 
+## Overview
+
+The program basically performs the following steps:
+
+1. Accept as input the name of a file from which to extract association rules.
+
+2. Prompt the user for a minimum support min_sup and a minimum confidence min_conf, which are two values between 0 and 1. 
+
+3. Utilize Apriori Algorithm to compute all the "frequent itemsets," using min_sup as your support threshold. The frequent itemsets have support greater than or equal to min_sup.
+
+4. For each of the frequent itemsets, build all possible association rules and identify those that have a confidence of at least min_conf. Generate only association rules with exactly one item on the right side and with at least one item on the left side, where the right-side item does not appear on the left side. The rules with confidence greater than or equal to min_conf is considered as the "high-confidence rules".
+
+5. Output the frequent itemsets and the high-confidence association rules listed in decreasing order of their confidence.
+
 ## Files
 - association_rule_mining.py
 - README.pdf
