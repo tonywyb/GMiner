@@ -1,0 +1,890 @@
+2020-03-31 19:30:09
+run AIzaSyCFce8dbNICkm0RFL5PKpbs6KN0aQ3s9-M 007813964578636493168:hfhusan5fqc 2 0.7 bill gates microsoft 10
+_______
+Parameters:
+Client key      = AIzaSyCFce8dbNICkm0RFL5PKpbs6KN0aQ3s9-M
+Engine key      = 007813964578636493168:hfhusan5fqc
+Relation        = per:employee_or_member_of
+Threshold       = 0.7
+Query           = bill gates microsoft
+# of Tuples     = 10
+Loading necessary libraries; This should take a minute or so ...
+Starting server with command: java -Xmx4G -cp /home/hj2530/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-5e3a1e9d490b49f5.props -preload tokenize,ssplit,pos,lemma,ner
+Starting server with command: java -Xmx4G -cp /home/hj2530/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9001 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-fb1b9425293c4343.props -preload tokenize,ssplit,pos,lemma,ner,depparse,coref,kbp
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+      Truncating webpage text from size (num characters) 103121 to  ...
+URL (1/ 10): https://www.cnbc.com/2020/03/13/bill-gates-leaves-microsoft-board.html
+      Fetching text from url ...
+      Webpage length (num characters): 5849
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 31 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+            === Extracted Relation ===
+            Sentence: Gates co-founded Microsoft in 1975 with Paul Allen, who died in 2018.
+            Confidence: 0.5747094446370702	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: VIDEO 4:05 04:05 Bill Gates steps down from Microsoft board Fast Money Microsoft   announced on Friday  that Bill Gates is leaving the board, effective Friday.
+            Confidence: 0.5416216763419542	 Subject: Bill Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 5 / 31 sentences
+      Processed 10 / 31 sentences
+            === Extracted Relation ===
+            Sentence: Gates co-founded Microsoft in 1975 with Paul Allen, who died in 2018.
+            Confidence: 0.5747094446370702	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Microsoft's current CEO, Satya Nadella, took over in 2014.
+            Confidence: 1.0	 Subject: Satya Nadella	 Object: Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Gates was director of the board at Microsoft until 2014 but began dedicating more of his time to the Bill & Melinda Gates Foundation in 2008.
+            Confidence: 0.9192702243950713	 Subject: Gates	 Object: Bill & Melinda Gates Foundation
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Gates was director of the board at Microsoft until 2014 but began dedicating more of his time to the Bill & Melinda Gates Foundation in 2008.
+            Confidence: 1.0	 Subject: Gates	 Object: Microsoft
+            Adding to set of extracted relations
+      Processed 15 / 31 sentences
+            === Extracted Relation ===
+            Sentence: ``It's been a tremendous honor and privilege to have worked with and learned from Bill over the years,'' said Microsoft CEO Satya Nadella.
+            Confidence: 1.0	 Subject: Satya Nadella	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 20 / 31 sentences
+            === Extracted Relation ===
+            Sentence: Related Tags Breaking News: Markets Breaking News: Business Breaking News: Technology Microsoft Corp Berkshire Hathaway Inc Trending Now Cuomo says coronavirus is `more dangerous' than expected as New York cases jump to 75,795 Aircraft carrier captain pleads for help after
+            Confidence: 0.919727641056393	 Subject: Cuomo	 Object: Technology Microsoft Corp Berkshire Hathaway Inc
+            Adding to set of extracted relations
+      Processed 25 / 31 sentences
+      Processed 30 / 31 sentences
+      Processed 31 / 31 sentences
+      Extracted kbp annotations for 16 out of total 31 sentences
+      Relations extracted from this website: 4  (Overall: 4)
+URL (2/ 10): https://www.nytimes.com/2020/03/13/technology/bill-gates-microsoft-board.html
+      Fetching text from url ...
+      Webpage length (num characters): 5579
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 40 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+      Processed 5 / 40 sentences
+      Processed 10 / 40 sentences
+            === Extracted Relation ===
+            Sentence: The company said he wants to devote more of his time to his philanthropy at the Bill & Melinda Gates Foundation, one of the world's biggest nonprofit organizations, which was started with the billions of dollars he made from Microsoft.
+            Confidence: 0.5076453587471376	 Subject: his	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: The company said he wants to devote more of his time to his philanthropy at the Bill & Melinda Gates Foundation, one of the world's biggest nonprofit organizations, which was started with the billions of dollars he made from Microsoft.
+            Confidence: 0.583943753231882	 Subject: his	 Object: Bill & Melinda Gates Foundation
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Mr. Gates remains one of the largest individual shareholders of Microsoft.
+            Confidence: 0.5303462565706215	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 15 / 40 sentences
+            === Extracted Relation ===
+            Sentence: He said he would remain active at the company and would work closely with Satya Nadella, Microsoft's chief executive.
+            Confidence: 1.0	 Subject: Satya Nadella	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 20 / 40 sentences
+            === Extracted Relation ===
+            Sentence: He has persuaded Mr. Buffett, his bridge partner and neighbor on the list of the world's richest people, to donate most of his fortune to the Gates Foundation.
+            Confidence: 0.6876321419578195	 Subject: Buffett	 Object: Gates Foundation
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Mr. Gates joined the Berkshire Hathaway board in 2004.
+            Confidence: 1.0	 Subject: Gates	 Object: Berkshire Hathaway
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: The conglomerate has nominated Kenneth Chenault, the former chief executive of American Express, to replace Mr. Gates on the board.
+            Confidence: 1.0	 Subject: Kenneth Chenault	 Object: American Express
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Daniel Ives, managing director of equity research at Wedbush Securities, said in a research note that Mr. Gates's stepping down from the Microsoft board was not a surprise and that it was a vote of confidence for Mr. Nadella and
+            Confidence: 1.0	 Subject: Daniel Ives	 Object: Wedbush Securities
+            Adding to set of extracted relations
+      Processed 25 / 40 sentences
+            === Extracted Relation ===
+            Sentence: Mr. Gates founded Microsoft in 1975, dropping out of Harvard and joining Paul Allen, his friend and technology collaborator since their teenage years at a private high school in Seattle.
+            Confidence: 0.7016141407580155	 Subject: Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 30 / 40 sentences
+      Processed 35 / 40 sentences
+      Processed 40 / 40 sentences
+      Extracted kbp annotations for 20 out of total 40 sentences
+      Relations extracted from this website: 3  (Overall: 7)
+URL (3/ 10): https://www.theverge.com/2020/3/13/21179214/bill-gates-steps-down-microsoft-board-philanthropy
+      Fetching text from url ...
+      Webpage length (num characters): 4346
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 20 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+            === Extracted Relation ===
+            Sentence: Bill Gates steps down from Microsoft board - The Verge
+Skip to main content
+Google Tag Manager -LRB-noscript-RRB-
+End Google Tag Manager -LRB-noscript-RRB-
+clock
+menu
+more-arrow
+no
+yes
+The Verge homepage
+Follow The Verge online:
+Follow The Verge on Facebook
+Follow The Verge on Twitter
+RSS feed -LRB-all stories on The Verge-RRB-
+Log in
+            Confidence: 0.7092436637480839	 Subject: Bill Gates	 Object: Google
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Bill Gates steps down from Microsoft board - The Verge
+Skip to main content
+Google Tag Manager -LRB-noscript-RRB-
+End Google Tag Manager -LRB-noscript-RRB-
+clock
+menu
+more-arrow
+no
+yes
+The Verge homepage
+Follow The Verge online:
+Follow The Verge on Facebook
+Follow The Verge on Twitter
+RSS feed -LRB-all stories on The Verge-RRB-
+Log in
+            Confidence: 0.6890321231873501	 Subject: Bill Gates	 Object: Facebook
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Bill Gates steps down from Microsoft board - The Verge
+Skip to main content
+Google Tag Manager -LRB-noscript-RRB-
+End Google Tag Manager -LRB-noscript-RRB-
+clock
+menu
+more-arrow
+no
+yes
+The Verge homepage
+Follow The Verge online:
+Follow The Verge on Facebook
+Follow The Verge on Twitter
+RSS feed -LRB-all stories on The Verge-RRB-
+Log in
+            Confidence: 0.7837775333257128	 Subject: Bill Gates	 Object: Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: All Creators
+Entertainment
+Film
+TV
+Games
+Fortnite
+Game of Thrones
+Books
+Comics
+Music
+All Entertainment
+Video
+Features
+Podcasts
+Newsletters
+Store
+✕
+Filed under:
+Microsoft
+Tech
+Bill Gates steps down from Microsoft board
+New,
+21
+comments
+Gates will be focusing more on philanthropy
+By
+Chaim Gartenberg @cgartenberg
+Mar 13, 2020,  5:15pm EDT
+Share this story
+Share this on Facebook
+Share this on Twitter
+Share
+All sharing options
+Share
+All sharing options for:
+Bill Gates steps
+            Confidence: 0.9112586984870008	 Subject: Bill Gates	 Object: Microsoft Tech
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: All Creators
+Entertainment
+Film
+TV
+Games
+Fortnite
+Game of Thrones
+Books
+Comics
+Music
+All Entertainment
+Video
+Features
+Podcasts
+Newsletters
+Store
+✕
+Filed under:
+Microsoft
+Tech
+Bill Gates steps down from Microsoft board
+New,
+21
+comments
+Gates will be focusing more on philanthropy
+By
+Chaim Gartenberg @cgartenberg
+Mar 13, 2020,  5:15pm EDT
+Share this story
+Share this on Facebook
+Share this on Twitter
+Share
+All sharing options
+Share
+All sharing options for:
+Bill Gates steps
+            Confidence: 0.5857080688652052	 Subject: Bill Gates	 Object: Facebook Share
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Gates previously served as CEO of Microsoft until 2000 when he  stepped down from the position  in order to spend more time on the Bill and Melinda Gates Foundation.
+            Confidence: 0.6559418329885564	 Subject: Bill	 Object: Melinda Gates Foundation
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Gates previously served as CEO of Microsoft until 2000 when he  stepped down from the position  in order to spend more time on the Bill and Melinda Gates Foundation.
+            Confidence: 0.7769726403275385	 Subject: Gates	 Object: Melinda Gates Foundation
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Gates previously served as CEO of Microsoft until 2000 when he  stepped down from the position  in order to spend more time on the Bill and Melinda Gates Foundation.
+            Confidence: 0.7389223079635598	 Subject: Bill	 Object: Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Gates previously served as CEO of Microsoft until 2000 when he  stepped down from the position  in order to spend more time on the Bill and Melinda Gates Foundation.
+            Confidence: 1.0	 Subject: Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 5 / 20 sentences
+            === Extracted Relation ===
+            Sentence: Gates will still serve as a ``technology advisor'' to current CEO Satya Nadella, a  role he began in 2014  at Nadella's request when he stepped down from serving as chairman of Microsoft's board.
+            Confidence: 0.9871701534954932	 Subject: Satya Nadella	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Gates will still serve as a ``technology advisor'' to current CEO Satya Nadella, a  role he began in 2014  at Nadella's request when he stepped down from serving as chairman of Microsoft's board.
+            Confidence: 0.9475013336759335	 Subject: Nadella	 Object: Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Gates will still serve as a ``technology advisor'' to current CEO Satya Nadella, a  role he began in 2014  at Nadella's request when he stepped down from serving as chairman of Microsoft's board.
+            Confidence: 0.9796954888119302	 Subject: Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 10 / 20 sentences
+            === Extracted Relation ===
+            Sentence: While Gates will still be at least somewhat involved with the company he founded through his position as a technology advisor, the move marks the furthest step away from running Microsoft that Gates has taken yet since he gave up
+            Confidence: 0.5680441475427627	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Correction: A previous version of this story said Gates stepped down as Microsoft CEO in 2008.
+            Confidence: 0.5423887988969476	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 15 / 20 sentences
+      Processed 20 / 20 sentences
+      Extracted kbp annotations for 10 out of total 20 sentences
+      Relations extracted from this website: 6  (Overall: 13)
+URL (4/ 10): https://techcrunch.com/2020/03/13/bill-gates-leaves-microsofts-board/
+      Fetching text from url ...
+      Webpage length (num characters): 2682
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 12 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+            === Extracted Relation ===
+            Sentence: Bill Gates leaves Microsoft's board -- TechCrunch
+duplicate React-root div for styling
+Bill Gates leaves Microsoft's board
+Devin Coldewey
+@techcrunch
+/
+3 weeks
+Bill Gates   has stepped down from the board of Microsoft to spend more time on his philanthropic endeavors,  the company announced
+            Confidence: 0.7706872209102399	 Subject: Devin Coldewey	 Object: Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Bill Gates leaves Microsoft's board -- TechCrunch
+duplicate React-root div for styling
+Bill Gates leaves Microsoft's board
+Devin Coldewey
+@techcrunch
+/
+3 weeks
+Bill Gates   has stepped down from the board of Microsoft to spend more time on his philanthropic endeavors,  the company announced
+            Confidence: 0.8365728022418633	 Subject: Bill Gates	 Object: Microsoft
+            The same relation is already present but with a lower confidence. Just updating the confident value.
+            === Extracted Relation ===
+            Sentence: Gates led  Microsoft   from the '80s all the way through 2008, when he left to dedicate himself more fully to the  Bill & Melinda Gates Foundation , through which he has channeled a great deal of
+            Confidence: 0.7077427916161994	 Subject: Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 5 / 12 sentences
+      Processed 10 / 12 sentences
+      Processed 12 / 12 sentences
+            === Extracted Relation ===
+            Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments
+The updated lineup on Microsoft's board is as follows:
+John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of
+            Confidence: 0.53587181151534	 Subject: John W. Thompson	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Gates, Wellcome and Mastercard launch $125 million fund to finance COVID-19 treatments
+The updated lineup on Microsoft's board is as follows:
+John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of
+            Confidence: 1.0	 Subject: Reid Hoffman	 Object: Greylock Partners
+            Adding to set of extracted relations
+      Extracted kbp annotations for 5 out of total 12 sentences
+      Relations extracted from this website: 2  (Overall: 15)
+URL (5/ 10): https://news.microsoft.com/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
+      Fetching text from url ...
+      Webpage length (num characters): 5
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+      Processed 1 / 1 sentences
+      Extracted kbp annotations for 0 out of total 1 sentences
+      Relations extracted from this website: 0  (Overall: 15)
+URL (6/ 10): https://en.wikipedia.org/wiki/Bill_Gates
+      Fetching text from url ...
+      Webpage length (num characters): 20000
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 134 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+            === Extracted Relation ===
+            Sentence: Bill Gates - Wikipedia
+CentralNotice
+Bill Gates
+From Wikipedia, the free encyclopedia
+Jump to navigation
+Jump to search
+This article is about the co-founder of Microsoft.
+            Confidence: 1.0	 Subject: Bill Gates	 Object: Microsoft
+            The same relation is already present but with a lower confidence. Just updating the confident value.
+      Processed 5 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-2-RSB- -LSB-3-RSB-  During his career at Microsoft, Gates held the positions of  chairman ,  chief executive officer  -LRB-CEO-RRB-,  president  and  chief software architect , while also being the largest individual  shareholder
+            Confidence: 0.431528905784787	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Born and raised in  Seattle, Washington , Gates co-founded Microsoft with childhood friend  Paul Allen  in 1975 in  Albuquerque, New Mexico ; it went on to become the world's largest  personal computer  software company.
+            Confidence: 0.7123580527943317	 Subject: Paul Allen	 Object: Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Born and raised in  Seattle, Washington , Gates co-founded Microsoft with childhood friend  Paul Allen  in 1975 in  Albuquerque, New Mexico ; it went on to become the world's largest  personal computer  software company.
+            Confidence: 0.8346682366303112	 Subject: Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 10 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-10-RSB-  He stepped down as chairman of Microsoft in February 2014 and assumed a new post as technology adviser to support the newly appointed CEO  Satya Nadella .
+            Confidence: 0.5670681080573123	 Subject: Satya Nadella	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: -LSB-10-RSB-  He stepped down as chairman of Microsoft in February 2014 and assumed a new post as technology adviser to support the newly appointed CEO  Satya Nadella .
+            Confidence: 1.0	 Subject: He	 Object: Microsoft
+            Adding to set of extracted relations
+      Processed 15 / 134 sentences
+            === Extracted Relation ===
+            Sentence: Later in his career and since leaving day-to-day operations at Microsoft in 2008, Gates pursued a number of philanthropic endeavors.
+            Confidence: 0.5032818391943871	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 20 / 134 sentences
+      Processed 25 / 134 sentences
+      Processed 30 / 134 sentences
+      Processed 35 / 134 sentences
+      Processed 40 / 134 sentences
+      Processed 45 / 134 sentences
+      Processed 50 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-35-RSB-  In 1972, he served as a congressional page in the House of Representatives.
+            Confidence: 0.7064802921506461	 Subject: he	 Object: House of Representatives
+            Adding to set of extracted relations
+      Processed 55 / 134 sentences
+            === Extracted Relation ===
+            Sentence: Gates left Harvard after two years while Ballmer stayed and graduated  magna cum laude .
+            Confidence: 1.0	 Subject: Gates	 Object: Harvard
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Ballmer succeeded Gates as Microsoft's CEO years later and maintained that position from 2000 until his resignation in 2014.
+            Confidence: 0.6911532514802464	 Subject: Ballmer	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Ballmer succeeded Gates as Microsoft's CEO years later and maintained that position from 2000 until his resignation in 2014.
+            Confidence: 0.6297263828471137	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 60 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-43-RSB-  His solution was formalized in a published paper in collaboration with Harvard computer scientist  Christos Papadimitriou .
+            Confidence: 1.0	 Subject: Christos Papadimitriou	 Object: Harvard
+            Adding to set of extracted relations
+      Processed 65 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-47-RSB-  The  MITS Altair 8800  was released the following year based on the  Intel 8080 CPU , and Gates and Allen saw this as the opportunity to start their own computer software company.
+            Confidence: 0.6400002269572793	 Subject: Allen	 Object: Intel
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: -LSB-47-RSB-  The  MITS Altair 8800  was released the following year based on the  Intel 8080 CPU , and Gates and Allen saw this as the opportunity to start their own computer software company.
+            Confidence: 0.7639629571437762	 Subject: Gates	 Object: Intel
+            Adding to set of extracted relations
+      Processed 70 / 134 sentences
+      Processed 75 / 134 sentences
+      Processed 80 / 134 sentences
+      Processed 85 / 134 sentences
+      Processed 90 / 134 sentences
+            === Extracted Relation ===
+            Sentence: IBM representative Jack Sams mentioned the licensing difficulties during a subsequent meeting with Gates and asked if Microsoft could provide an operating system.
+            Confidence: 1.0	 Subject: Jack Sams	 Object: IBM
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: A few weeks later, Gates and Allen proposed using  86-DOS , an operating system similar to CP/M, that  Tim Paterson  of  Seattle Computer Products  -LRB-SCP-RRB- had made for hardware similar to the PC.
+            Confidence: 1.0	 Subject: Tim Paterson	 Object: Seattle Computer Products
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Microsoft employed Paterson to adapt the operating system for the PC -LSB-57-RSB-  and delivered it to IBM as  PC DOS  for a one-time fee of $50,000.
+            Confidence: 0.523250801718687	 Subject: Paterson	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 95 / 134 sentences
+      Processed 100 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-54-RSB-
+Gates oversaw Microsoft's company restructuring on June 25, 1981, which re-incorporated the company in Washington state and made Gates the president and chairman of the board, with Paul Allen as vice president and vice chairman.
+            Confidence: 0.5932963553153888	 Subject: Paul Allen	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: -LSB-54-RSB-
+Gates oversaw Microsoft's company restructuring on June 25, 1981, which re-incorporated the company in Washington state and made Gates the president and chairman of the board, with Paul Allen as vice president and vice chairman.
+            Confidence: 0.8199716636264586	 Subject: Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 105 / 134 sentences
+      Processed 110 / 134 sentences
+      Processed 115 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-69-RSB- -LSB-70-RSB- -LSB-71-RSB-
+During Microsoft's early years, Gates was an active software developer, particularly in the company's programming language products, but his primary role in most of the company's history was as a manager and executive.
+            Confidence: 0.7644454542297477	 Subject: Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 120 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-70-RSB-   Jerry Pournelle  wrote in 1985 when Gates announced  Microsoft Excel : ``Bill Gates likes the program, not because it's going to make him a lot of money -LRB-although I'm sure it will do that-RRB-, but
+            Confidence: 0.5564171131491501	 Subject: Bill Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 125 / 134 sentences
+      Processed 130 / 134 sentences
+      Processed 134 / 134 sentences
+            === Extracted Relation ===
+            Sentence: -LSB-77-RSB-
+Post-Microsoft
+Gates meets with U.S. Secretary of Defense  James Mattis , February 2017
+Since leaving day-to-day operations at Microsoft, Gates has continued his philanthropy and
+            Confidence: 0.5352637317809594	 Subject: James Mattis	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: -LSB-77-RSB-
+Post-Microsoft
+Gates meets with U.S. Secretary of Defense  James Mattis , February 2017
+Since leaving day-to-day operations at Microsoft, Gates has continued his philanthropy and
+            Confidence: 0.5522596145889281	 Subject: Post-Microsoft Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Extracted kbp annotations for 56 out of total 134 sentences
+      Relations extracted from this website: 8  (Overall: 23)
+URL (7/ 10): https://www.computerworld.com/article/3532478/bill-gates-always-seems-to-know-when-it-s-time-to-go.html
+      Fetching text from url ...
+      Webpage length (num characters): 10023
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 72 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+      Processed 5 / 72 sentences
+      Processed 10 / 72 sentences
+      Processed 15 / 72 sentences
+            === Extracted Relation ===
+            Sentence: Bill Gates resigned from Microsoft's board of directors  last week, pretty much ending his official ties to the company he co-founded.
+            Confidence: 0.6559286734293506	 Subject: Bill Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 20 / 72 sentences
+      Processed 25 / 72 sentences
+      Processed 30 / 72 sentences
+      Processed 35 / 72 sentences
+      Processed 40 / 72 sentences
+      Processed 45 / 72 sentences
+            === Extracted Relation ===
+            Sentence: As long as Gates remained part of Microsoft, Nadella was to some extent fettered.
+            Confidence: 0.5318491518145751	 Subject: Nadella	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Now Nadella is more free to mold Microsoft into his vision of the future without the shadow of Bill Gates hampering execution.
+            Confidence: 0.5152133433352591	 Subject: Nadella	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 50 / 72 sentences
+            === Extracted Relation ===
+            Sentence: By the time Gates left Microsoft, the company was under an antitrust cloud, IBM was recovering, Google was just about to become a thing, and Apple, with the return of Steve Jobs, had begun a substantial move from being on
+            Confidence: 1.0	 Subject: Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+      Processed 55 / 72 sentences
+      Processed 60 / 72 sentences
+            === Extracted Relation ===
+            Sentence: Related:
+Microsoft
+Windows
+Rob Enderle is president and principal analyst of the  Enderle Group , a forward looking emerging technology advisory firm.
+            Confidence: 1.0	 Subject: Rob Enderle	 Object: Enderle Group
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Related:
+Microsoft
+Windows
+Rob Enderle is president and principal analyst of the  Enderle Group , a forward looking emerging technology advisory firm.
+            Confidence: 0.7040023718252735	 Subject: Rob Enderle	 Object: Microsoft
+            Adding to set of extracted relations
+      Processed 65 / 72 sentences
+      Processed 70 / 72 sentences
+      Processed 72 / 72 sentences
+      Extracted kbp annotations for 17 out of total 72 sentences
+      Relations extracted from this website: 2  (Overall: 25)
+URL (8/ 10): https://www.bbc.com/news/business-51883377
+      Fetching text from url ...
+      Webpage length (num characters): 8994
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 32 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+            === Extracted Relation ===
+            Sentence: -LSB-endif-RSB-
+News
+BBC News Navigation
+Sections
+Home
+Video
+World
+US & Canada
+UK
+Business
+selected
+Tech
+Science
+Stories
+Entertainment & Arts
+Health
+In Pictures
+Reality Check
+World News TV
+Newsbeat
+Special Reports
+Explainers
+The Reporters
+Have Your Say
+Business   selected
+Market Data
+Global Trade
+Companies
+Entrepreneurship
+Technology of Business
+Connected World
+Global Education
+Economy
+Business
+Business
+Bill Gates steps down from Microsoft board to focus on philanthropy
+13 March 2020
+Share this with Facebook
+Share this
+            Confidence: 0.8634717491139511	 Subject: Bill Gates	 Object: Tech Science Stories Entertainment & Arts Health
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: -LSB-endif-RSB-
+News
+BBC News Navigation
+Sections
+Home
+Video
+World
+US & Canada
+UK
+Business
+selected
+Tech
+Science
+Stories
+Entertainment & Arts
+Health
+In Pictures
+Reality Check
+World News TV
+Newsbeat
+Special Reports
+Explainers
+The Reporters
+Have Your Say
+Business   selected
+Market Data
+Global Trade
+Companies
+Entrepreneurship
+Technology of Business
+Connected World
+Global Education
+Economy
+Business
+Business
+Bill Gates steps down from Microsoft board to focus on philanthropy
+13 March 2020
+Share this with Facebook
+Share this
+            Confidence: 0.6199363478555605	 Subject: Bill Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: -LSB-endif-RSB-
+News
+BBC News Navigation
+Sections
+Home
+Video
+World
+US & Canada
+UK
+Business
+selected
+Tech
+Science
+Stories
+Entertainment & Arts
+Health
+In Pictures
+Reality Check
+World News TV
+Newsbeat
+Special Reports
+Explainers
+The Reporters
+Have Your Say
+Business   selected
+Market Data
+Global Trade
+Companies
+Entrepreneurship
+Technology of Business
+Connected World
+Global Education
+Economy
+Business
+Business
+Bill Gates steps down from Microsoft board to focus on philanthropy
+13 March 2020
+Share this with Facebook
+Share this
+            Confidence: 0.7542634803210992	 Subject: Bill Gates	 Object: BBC News Navigation Sections Home Video World US & Canada UK Business
+            Adding to set of extracted relations
+      Processed 5 / 32 sentences
+            === Extracted Relation ===
+            Sentence: These are external links and will open in a new window
+Close share panel
+Image copyright
+Reuters
+Microsoft co-founder Bill Gates is stepping down from the company's board to spend more time on philanthropic activities.
+            Confidence: 1.0	 Subject: Bill Gates	 Object: Reuters Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: One of the world's richest men, Mr Gates, 64, has also left the board of Warren Buffett's massive holding company, Berkshire Hathaway.
+            Confidence: 1.0	 Subject: Warren Buffett	 Object: Berkshire Hathaway
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Mr Gates stepped down from his day-to-day role running Microsoft in 2008.
+            Confidence: 0.6159468543576694	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 10 / 32 sentences
+            === Extracted Relation ===
+            Sentence: Mr Gates is listed by Forbes as  the world's second richest man after Amazon founder Jeff Bezos, and is worth $103.6bn -LRB-£84.4bn-RRB-.
+            Confidence: 1.0	 Subject: Jeff Bezos	 Object: Amazon
+            Adding to set of extracted relations
+      Processed 15 / 32 sentences
+            === Extracted Relation ===
+            Sentence: Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+            Confidence: 0.6190643111169629	 Subject: his	 Object: Berkshire
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+            Confidence: 0.697710463822445	 Subject: his	 Object: Bill & Melinda Gates Foundation
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+            Confidence: 0.5705124136147393	 Subject: Gates	 Object: Bill & Melinda Gates Foundation
+            Confidence is lower than threshold confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+            Confidence: 0.8305853137419958	 Subject: Gates	 Object: Berkshire
+            Adding to set of extracted relations
+      Processed 20 / 32 sentences
+      Processed 25 / 32 sentences
+      Processed 30 / 32 sentences
+      Processed 32 / 32 sentences
+      Extracted kbp annotations for 9 out of total 32 sentences
+      Relations extracted from this website: 6  (Overall: 31)
+URL (9/ 10): https://www.wired.com/story/bill-gates-steps-down-microsoft-board/
+      Fetching text from url ...
+      Webpage length (num characters): 7688
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 57 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+      Processed 5 / 57 sentences
+      Processed 10 / 57 sentences
+      Processed 15 / 57 sentences
+      Processed 20 / 57 sentences
+            === Extracted Relation ===
+            Sentence: Eight years later, Gates  left his full-time post  at Microsoft to spend most of his time with the foundation.
+            Confidence: 0.656185401238439	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 25 / 57 sentences
+            === Extracted Relation ===
+            Sentence: Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you
+            Confidence: 0.7381064013363892	 Subject: Steve Jobs	 Object: Justice Department
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you
+            Confidence: 0.8930142213354275	 Subject: David Boies	 Object: Justice Department
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you
+            Confidence: 0.5991836590684244	 Subject: Steve Jobs	 Object: Sony
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 30 / 57 sentences
+            === Extracted Relation ===
+            Sentence: When Gates left his software architect job at Microsoft in 2008, he told me that the subjects he tackled at the foundation were more vital than the ones he made about software.
+            Confidence: 0.6966473945763765	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 35 / 57 sentences
+      Processed 40 / 57 sentences
+      Processed 45 / 57 sentences
+      Processed 50 / 57 sentences
+      Processed 55 / 57 sentences
+      Processed 57 / 57 sentences
+      Extracted kbp annotations for 13 out of total 57 sentences
+      Relations extracted from this website: 2  (Overall: 33)
+URL (10/ 10): https://arstechnica.com/information-technology/2020/03/bill-gates-steps-down-from-microsoft-board/
+      Fetching text from url ...
+      Webpage length (num characters): 4681
+      Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Extracted 26 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+            === Extracted Relation ===
+            Sentence: Sign up to comment and more
+Sign up
+Unboarding    --
+Bill Gates steps down from Microsoft board Microsoft co-founder exits the board 45 years after starting the company.
+            Confidence: 0.8310026854361174	 Subject: Bill Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Eric Bangeman
+-   Mar 13, 2020 9:46 pm UTC
+Enlarge   /  US Microsoft founder, Co-Chairman of the Bill & Melinda Gates Foundation, Bill Gates, poses for a picture on October 9, 2019, in Lyon, central eastern France,
+            Confidence: 1.0	 Subject: Bill Gates	 Object: Bill & Melinda Gates Foundation
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Eric Bangeman
+-   Mar 13, 2020 9:46 pm UTC
+Enlarge   /  US Microsoft founder, Co-Chairman of the Bill & Melinda Gates Foundation, Bill Gates, poses for a picture on October 9, 2019, in Lyon, central eastern France,
+            Confidence: 0.8250576049222453	 Subject: Eric Bangeman	 Object: Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Eric Bangeman
+-   Mar 13, 2020 9:46 pm UTC
+Enlarge   /  US Microsoft founder, Co-Chairman of the Bill & Melinda Gates Foundation, Bill Gates, poses for a picture on October 9, 2019, in Lyon, central eastern France,
+            Confidence: 0.9270558372344824	 Subject: Bill Gates	 Object: Microsoft
+            The same relation is already present with higher (or equal) confidence. Ignoring this.
+            === Extracted Relation ===
+            Sentence: Eric Bangeman
+-   Mar 13, 2020 9:46 pm UTC
+Enlarge   /  US Microsoft founder, Co-Chairman of the Bill & Melinda Gates Foundation, Bill Gates, poses for a picture on October 9, 2019, in Lyon, central eastern France,
+            Confidence: 0.9136599122649899	 Subject: Eric Bangeman	 Object: Bill & Melinda Gates Foundation
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Eric Bangeman
+-   Mar 13, 2020 9:46 pm UTC
+Enlarge   /  US Microsoft founder, Co-Chairman of the Bill & Melinda Gates Foundation, Bill Gates, poses for a picture on October 9, 2019, in Lyon, central eastern France,
+            Confidence: 0.9024407418303115	 Subject: Bill Gates	 Object: UTC
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Eric Bangeman
+-   Mar 13, 2020 9:46 pm UTC
+Enlarge   /  US Microsoft founder, Co-Chairman of the Bill & Melinda Gates Foundation, Bill Gates, poses for a picture on October 9, 2019, in Lyon, central eastern France,
+            Confidence: 0.8871836647078506	 Subject: Eric Bangeman	 Object: UTC
+            Adding to set of extracted relations
+      Processed 5 / 26 sentences
+            === Extracted Relation ===
+            Sentence: Jeff Pachoud | Getty Images
+reader comments
+92
+with 70 posters participating
+Share this story
+Share on Facebook
+Share on Twitter
+Share on Reddit
+cache miss 943:single/related:21ac9c0d1f010a577dc3e27090cff4d1   empty
+Just over 20 years after stepping down as CEO of Microsoft and six years after relinquishing his position as
+            Confidence: 0.814879071401793	 Subject: his	 Object: Facebook Share on Twitter Share
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Jeff Pachoud | Getty Images
+reader comments
+92
+with 70 posters participating
+Share this story
+Share on Facebook
+Share on Twitter
+Share on Reddit
+cache miss 943:single/related:21ac9c0d1f010a577dc3e27090cff4d1   empty
+Just over 20 years after stepping down as CEO of Microsoft and six years after relinquishing his position as
+            Confidence: 0.9146392289154004	 Subject: Jeff Pachoud	 Object: Microsoft
+            Adding to set of extracted relations
+            === Extracted Relation ===
+            Sentence: Gates founded Microsoft in 1975 with Paul Allen, and their first product was Altair BASIC.
+            Confidence: 0.687167864967851	 Subject: Gates	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 10 / 26 sentences
+            === Extracted Relation ===
+            Sentence: In 2000, Gates used $5 billion of his personal fortune to launch the Bill and Melinda Gates Foundation, which has become one of the largest philanthropic ventures in the world.
+            Confidence: 0.5110556079927946	 Subject: Bill	 Object: Melinda Gates Foundation
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 15 / 26 sentences
+            === Extracted Relation ===
+            Sentence: He leaves an enduring legacy of curiosity and insight that serves as an inspiration for us all,'' said John W. Thompson, Microsoft independent board chair.
+            Confidence: 0.6110131688976262	 Subject: John W. Thompson	 Object: Microsoft
+            Confidence is lower than threshold confidence. Ignoring this.
+      Processed 20 / 26 sentences
+      Processed 25 / 26 sentences
+      Processed 26 / 26 sentences
+      Extracted kbp annotations for 10 out of total 26 sentences
+      Relations extracted from this website: 7  (Overall: 40)
+================== ALL RELATIONS (40) =================
+Confidence: 1.000000	| Subject: Satya Nadella                           	| Object: Microsoft
+Confidence: 1.000000	| Subject: Gates                                   	| Object: Microsoft
+Confidence: 1.000000	| Subject: Gates                                   	| Object: Berkshire Hathaway
+Confidence: 1.000000	| Subject: Kenneth Chenault                        	| Object: American Express
+Confidence: 1.000000	| Subject: Daniel Ives                             	| Object: Wedbush Securities
+Confidence: 1.000000	| Subject: Bill Gates                              	| Object: Microsoft
+Confidence: 1.000000	| Subject: Reid Hoffman                            	| Object: Greylock Partners
+Confidence: 1.000000	| Subject: He                                      	| Object: Microsoft
+Confidence: 1.000000	| Subject: Gates                                   	| Object: Harvard
+Confidence: 1.000000	| Subject: Christos Papadimitriou                  	| Object: Harvard
+Confidence: 1.000000	| Subject: Jack Sams                               	| Object: IBM
+Confidence: 1.000000	| Subject: Tim Paterson                            	| Object: Seattle Computer Products
+Confidence: 1.000000	| Subject: Rob Enderle                             	| Object: Enderle Group
+Confidence: 1.000000	| Subject: Bill Gates                              	| Object: Reuters Microsoft
+Confidence: 1.000000	| Subject: Warren Buffett                          	| Object: Berkshire Hathaway
+Confidence: 1.000000	| Subject: Jeff Bezos                              	| Object: Amazon
+Confidence: 1.000000	| Subject: Bill Gates                              	| Object: Bill & Melinda Gates Foundation
+Confidence: 0.947501	| Subject: Nadella                                 	| Object: Microsoft
+Confidence: 0.919728	| Subject: Cuomo                                   	| Object: Technology Microsoft Corp Berkshire Hathaway Inc
+Confidence: 0.919270	| Subject: Gates                                   	| Object: Bill & Melinda Gates Foundation
+Confidence: 0.914639	| Subject: Jeff Pachoud                            	| Object: Microsoft
+Confidence: 0.913660	| Subject: Eric Bangeman                           	| Object: Bill & Melinda Gates Foundation
+Confidence: 0.911259	| Subject: Bill Gates                              	| Object: Microsoft Tech
+Confidence: 0.902441	| Subject: Bill Gates                              	| Object: UTC
+Confidence: 0.893014	| Subject: David Boies                             	| Object: Justice Department
+Confidence: 0.887184	| Subject: Eric Bangeman                           	| Object: UTC
+Confidence: 0.863472	| Subject: Bill Gates                              	| Object: Tech Science Stories Entertainment & Arts Health
+Confidence: 0.830585	| Subject: Gates                                   	| Object: Berkshire
+Confidence: 0.825058	| Subject: Eric Bangeman                           	| Object: Microsoft
+Confidence: 0.814879	| Subject: his                                     	| Object: Facebook Share on Twitter Share
+Confidence: 0.776973	| Subject: Gates                                   	| Object: Melinda Gates Foundation
+Confidence: 0.770687	| Subject: Devin Coldewey                          	| Object: Microsoft
+Confidence: 0.763963	| Subject: Gates                                   	| Object: Intel
+Confidence: 0.754263	| Subject: Bill Gates                              	| Object: BBC News Navigation Sections Home Video World US & Canada UK Business
+Confidence: 0.738922	| Subject: Bill                                    	| Object: Microsoft
+Confidence: 0.738106	| Subject: Steve Jobs                              	| Object: Justice Department
+Confidence: 0.712358	| Subject: Paul Allen                              	| Object: Microsoft
+Confidence: 0.709244	| Subject: Bill Gates                              	| Object: Google
+Confidence: 0.706480	| Subject: he                                      	| Object: House of Representatives
+Confidence: 0.704002	| Subject: Rob Enderle                             	| Object: Microsoft

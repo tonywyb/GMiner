@@ -1,0 +1,39 @@
+==Frequent itemsets (min_sup=20%)
+[0.0  <  HIV-related  death  rate  <=  10.0], 67%
+[Female], 50%
+[Male], 50%
+[Middle  age], 50%
+[0.0  <  AIDS  diagnosis  rate  <=  10.0], 46%
+[0.0  <  HIV  diagnosis  rate  <=  10.0], 35%
+[0.0  <  HIV-related  death  rate  <=  10.0,Male], 33%
+[Middle  age,0.0  <  HIV-related  death  rate  <=  10.0], 33%
+[0.0  <  HIV-related  death  rate  <=  10.0,Female], 33%
+[Young], 33%
+[0.0  <  AIDS  diagnosis  rate  <=  10.0,0.0  <  HIV-related  death  rate  <=  10.0], 31%
+[0.0  <  AIDS  diagnosis  rate  <=  10.0,0.0  <  HIV  diagnosis  rate  <=  10.0], 30%
+[0.0  <  AIDS  diagnosis  rate  <=  10.0,Female], 30%
+[Female,0.0  <  HIV  diagnosis  rate  <=  10.0], 26%
+[0.0  <  HIV-related  death  rate  <=  10.0,Young], 25%
+[Middle  age,Female], 25%
+[Middle  age,Male], 25%
+[0.0  <  PLWDHI  prevalence  <=  0.13], 24%
+[0.0  <  AIDS  diagnosis  rate  <=  10.0,Female,0.0  <  HIV  diagnosis  rate  <=  10.0], 22%
+[0.0  <  HIV-related  death  rate  <=  10.0,0.0  <  HIV  diagnosis  rate  <=  10.0], 22%
+[0.0  <  PLWDHI  prevalence  <=  0.13,0.0  <  AIDS  diagnosis  rate  <=  10.0], 22%
+[0.0  <  AIDS  diagnosis  rate  <=  10.0,Young], 22%
+[0.0  <  AIDS  diagnosis  rate  <=  10.0,0.0  <  HIV-related  death  rate  <=  10.0,Female], 20%
+[HIV-related  death  rate>90.0], 20%
+==High-confidence association rules (min_conf=60%)
+[0.0  <  PLWDHI  prevalence  <=  0.13] => [0.0  <  AIDS  diagnosis  rate  <=  10.0] (Conf: 93%, Supp: 22%, Interestingness: 46%)
+[Female,0.0  <  HIV  diagnosis  rate  <=  10.0] => [0.0  <  AIDS  diagnosis  rate  <=  10.0] (Conf: 87%, Supp: 22%, Interestingness: 40%)
+[0.0  <  HIV  diagnosis  rate  <=  10.0] => [0.0  <  AIDS  diagnosis  rate  <=  10.0] (Conf: 85%, Supp: 30%, Interestingness: 39%)
+[Young] => [0.0  <  HIV-related  death  rate  <=  10.0] (Conf: 76%, Supp: 25%, Interestingness: 9%)
+[0.0  <  HIV  diagnosis  rate  <=  10.0] => [Female] (Conf: 72%, Supp: 26%, Interestingness: 22%)
+[Male] => [0.0  <  HIV-related  death  rate  <=  10.0] (Conf: 67%, Supp: 33%, Interestingness: 0%)
+[Middle  age] => [0.0  <  HIV-related  death  rate  <=  10.0] (Conf: 67%, Supp: 33%, Interestingness: 0%)
+[Female] => [0.0  <  HIV-related  death  rate  <=  10.0] (Conf: 67%, Supp: 33%, Interestingness: 0%)
+[Young] => [0.0  <  AIDS  diagnosis  rate  <=  10.0] (Conf: 66%, Supp: 22%, Interestingness: 19%)
+[0.0  <  AIDS  diagnosis  rate  <=  10.0] => [0.0  <  HIV-related  death  rate  <=  10.0] (Conf: 66%, Supp: 31%, Interestingness: 0%)
+[0.0  <  HIV  diagnosis  rate  <=  10.0] => [0.0  <  HIV-related  death  rate  <=  10.0] (Conf: 63%, Supp: 22%, Interestingness: -3%)
+[Female] => [0.0  <  AIDS  diagnosis  rate  <=  10.0] (Conf: 61%, Supp: 30%, Interestingness: 14%)
+[0.0  <  HIV-related  death  rate  <=  10.0,Female] => [0.0  <  AIDS  diagnosis  rate  <=  10.0] (Conf: 60%, Supp: 20%, Interestingness: 13%)

@@ -1,0 +1,490 @@
+~/Desktop/GMiner/proj1$ python3 info_retrieval_system.py Your-Search-Engine-ID Your-Search-Engine-ID 0.9 "per se"
+Parameters:
+Client key  = Your-Search-Engine-ID
+Engine key  = 011560707485097968922:jk7pzzw71h5
+Query       = ['per se']
+Precision   = 0.9
+Google Search Results:
+==============================
+Result: 0
+{
+  "URL": "https://www.thomaskeller.com/perseny",
+  "Summary": "Per Se. About. About; Restaurant \u00b7 Team \u00b7 Info & Directions \u00b7 Gift Experiences \u00b7 \nReservations; Menus & Stories. Menus & Stories; Daily Menus \u00b7 Farmers &\u00a0...",
+  "Title": "Per Se | Thomas Keller Restaurant Group"
+}
+Relevant (Y/N)?Y
+Result: 1
+{
+  "URL": "https://en.wikipedia.org/wiki/Per_se",
+  "Summary": "Per se may refer to: per se, a Latin phrase meaning \"by itself\" or \"in itself\". Illegal \nper se, the legal usage in criminal and antitrust law; Negligence per se, legal\u00a0...",
+  "Title": "Per se - Wikipedia"
+}
+Relevant (Y/N)?Y
+Result: 2
+{
+  "URL": "https://www.merriam-webster.com/dictionary/perse",
+  "Summary": "Perse definition is - of a dark grayish blue resembling indigo. How to use perse in \na sentence. Did You Know?",
+  "Title": "Perse | Definition of Perse by Merriam-Webster"
+}
+Relevant (Y/N)?N
+Result: 3
+{
+  "URL": "https://www.thomaskeller.com/new-york-new-york/per-se/todays-menus",
+  "Summary": "Daily Menus Two tasting menus are offered daily: a nine-course chef's tasting \nmenu, as well as a nine-course vegetable tasting menu. No single ingredient is\u00a0...",
+  "Title": "Per Se"
+}
+Relevant (Y/N)?Y
+Result: 4
+{
+  "URL": "https://en.wiktionary.org/wiki/per_se",
+  "Summary": "AdverbEdit \u00b7 per se (not comparable). In and of itself; by itself; without \ndetermination by or involvement of extraneous factors. quotations\u00a0...",
+  "Title": "per se - Wiktionary"
+}
+Relevant (Y/N)?N
+Result: 5
+{
+  "URL": "https://www.nytimes.com/2016/01/13/dining/pete-wells-per-se-review.html",
+  "Summary": "Jan 12, 2016 ... Dinner or lunch at this grand, hermetic, self-regarding, ungenerous restaurant \nbrings a protracted march of many dishes. In 2004, the year Per Se\u00a0...",
+  "Title": "At Thomas Keller's Per Se, Slips and Stumbles - The New York Times"
+}
+Relevant (Y/N)?Y
+Result: 6
+{
+  "URL": "https://readable.com/blog/how-to-correctly-use-per-se/",
+  "Summary": "Aug 11, 2017 ... Most of the time it's brought into the conversation, per se is misused. Per se is a \nLatin phrase, meaning \"by itself, in itself, of itself\". WeIf that hasn't\u00a0...",
+  "Title": "Making sense of English grammar. How to correctly use \"per se\""
+}
+Relevant (Y/N)?N
+Result: 7
+{
+  "URL": "https://www.vocabulary.com/dictionary/per%20se",
+  "Summary": "Per se is the phrase to use when you want to refer to a particular thing on its own. \nIt is not this Latin phrase, per se, that is important, but rather the concept it\u00a0...",
+  "Title": "per se - Dictionary Definition : Vocabulary.com"
+}
+Relevant (Y/N)?N
+Result: 8
+{
+  "URL": "https://www.yelp.com/biz/per-se-new-york",
+  "Summary": "1650 reviews of Per Se - Temp. CLOSED \"This is Thomas Keller's new resturant \nin New York. A must if you can get a reservation.\"",
+  "Title": "Per Se - Temp. CLOSED - 6185 Photos & 1650 Reviews - French ..."
+}
+Relevant (Y/N)?Y
+Result: 9
+{
+  "URL": "https://dictionary.cambridge.org/us/dictionary/english/per-se",
+  "Summary": "6 days ago ... per se meaning: 1. by or of itself: 2. by or of itself: 3. by or of itself: . Learn more.",
+  "Title": "PER SE | definition in the Cambridge English Dictionary"
+}
+Relevant (Y/N)?N
+FEEDBACK SUMMARY
+
+New precision: 0.5
+
+Query       = Menus tasting per se
+Still below the desired precision: 0.9
+Result: 0
+{
+  "URL": "https://www.thomaskeller.com/new-york-new-york/per-se/todays-menus",
+  "Summary": "Daily Menus Two tasting menus are offered daily: a nine-course chef's tasting \nmenu, as well as a nine-course vegetable tasting menu. No single ingredient is\u00a0...",
+  "Title": "Per Se"
+}
+Relevant (Y/N)?Y
+Result: 1
+{
+  "URL": "https://thepricehike.com/post/.../explaining-per-ses-685-menu-wine-is-extra",
+  "Summary": "Explaining Per Se's $685 Menu (Wine Is Extra) Thomas Keller's service-included \nPer Se, at $295 per person, is New York's second most expensive restaurant.",
+  "Title": "Explaining Per Se's $685 Menu (Wine Is Extra)"
+}
+Relevant (Y/N)?Y
+Result: 2
+{
+  "URL": "https://www.thomaskeller.com/perseny",
+  "Summary": "Per Se. About. About; Restaurant \u00b7 Team \u00b7 Info & Directions \u00b7 Gift Experiences \u00b7 \nReservations; Menus & Stories. Menus & Stories; Daily Menus \u00b7 Farmers &\u00a0...",
+  "Title": "Per Se | Thomas Keller Restaurant Group"
+}
+Relevant (Y/N)?Y
+Result: 3
+{
+  "URL": "https://www.thewholeworldisaplayground.com/the-per-se-experience- saturday-afternoon-lunch-in-new-york-with-three-michelin-stars/",
+  "Summary": "Jan 16, 2014 ... It's often described as one of the best restaurants in New York City and I was \nexpecting Per Se to blow my mind! We sampled a tasting menu\u00a0...",
+  "Title": "The Per Se Experience: Saturday Afternoon Lunch in New York with ..."
+}
+Relevant (Y/N)?Y
+Result: 4
+{
+  "URL": "https://www.donuts4dinner.com/.../the-vegetarian-tasting-and-chefs-tasting-at -per-se/",
+  "Summary": "May 24, 2012 ... Per Se NYC Chef's Tasting Menu and Vegetarian Tasting Menu with Wine \nPairings and Non-. The usual Gruyere goug\u00e8res started the meal in\u00a0...",
+  "Title": "The Vegetarian Tasting and Chef's Tasting at Per Se \u2013 NYC ..."
+}
+Relevant (Y/N)?Y
+Result: 5
+{
+  "URL": "https://www.tripadvisor.com/Restaurant_Review-g60763-d425628-Reviews- Per_Se-New_York_City_New_York.html",
+  "Summary": "Apr 5, 2015 ... Per Se, New York City: See 1828 unbiased reviews of Per Se, rated 4.5 of 5 ... All \nreviews oysters and pearls tasting menu foie gras wagyu beef\u00a0...",
+  "Title": "PER SE, New York City - Hell's Kitchen - Menu, Prices & Restaurant ..."
+}
+Relevant (Y/N)?Y
+Result: 6
+{
+  "URL": "https://stories.forbestravelguide.com/what-is-the-price-range-for-a-meal-at- per-se",
+  "Summary": "Jun 17, 2017 ... Per Se, Photo Credit: Deborah Jones. Dinner at New York City's Per Se starts at \n$325, the cost of the nine-course chef's tasting menu or the\u00a0...",
+  "Title": "What Is The Price Range For A Meal At Per Se? \u2013 Forbes Travel ..."
+}
+Relevant (Y/N)?Y
+Result: 7
+{
+  "URL": "https://www.youtube.com/watch?v=DKHTP5dsmVk",
+  "Summary": "Aug 21, 2016 ... Per Se - Chef's Tasting Menu.",
+  "Title": "NYC Per Se - YouTube"
+}
+Relevant (Y/N)?Y
+Result: 8
+{
+  "URL": "https://ny.eater.com/.../7/.../per-se-thomas-keller-corey-chow-nyc-restaurants",
+  "Summary": "Jul 24, 2019 ... Thomas Keller's Columbus Circle tasting menu, under chef Corey Chow, has far \nmore wins than in the past.",
+  "Title": "Manhattan Restaurant Per Se from Thomas Keller May Finally Be a ..."
+}
+Relevant (Y/N)?Y
+Result: 9
+{
+  "URL": "https://www.newyorker.com/magazine/.../per-ses-seven-course-kids-menu",
+  "Summary": "Mar 6, 2017 ... On a Sunday morning at Per Se, the staff went through its pre-service drill ... After \none taste, she proclaimed, \u201cI'm sorry, this is the most delicious\u00a0...",
+  "Title": "Per Se's Seven-Course Kids' Menu | The New Yorker"
+}
+Relevant (Y/N)?Y
+FEEDBACK SUMMARY
+
+Query: Menus tasting per se
+
+Current precision 1.0 
+
+Target precision 0.9 achieved, done
+
+///////////////////////////////////////////////////////////////////////////////////////
+~/Desktop/GMiner/proj1$ python3 info_retrieval_system.py Your-Search-Engine-ID 011560707485097968922:jk7pzzw71h5 0.9 "brin"
+Parameters:
+Client key  = Your-Search-Engine-ID
+Engine key  = 011560707485097968922:jk7pzzw71h5
+Query       = ['brin']
+Precision   = 0.9
+Google Search Results:
+==============================
+Result: 0
+{
+  "Summary": "Sergey Mikhaylovich Brin is an American computer scientist and Internet \nentrepreneur. Together with Larry Page, he co-founded Google. Brin was the \npresident\u00a0...",
+  "URL": "https://en.wikipedia.org/wiki/Sergey_Brin",
+  "Title": "Sergey Brin - Wikipedia"
+}
+Relevant (Y/N)?Y
+Result: 1
+{
+  "Summary": "The official website of best-selling science fiction writer and futurist DAVID BRIN.",
+  "URL": "https://www.davidbrin.com/",
+  "Title": "worlds of David Brin"
+}
+Relevant (Y/N)?N
+Result: 2
+{
+  "Summary": "Sergey Brin stepped down as president of Alphabet, parent company of Google, \nin December 2019 but remains a controller shareholder and a board member.",
+  "URL": "https://www.forbes.com/profile/sergey-brin/",
+  "Title": "Sergey Brin"
+}
+Relevant (Y/N)?Y
+Result: 3
+{
+  "Summary": "NounEdit. brin (plural brins). One of the radiating sticks of a fan. The outermost \nare larger and longer, and are called panaches\u00a0...",
+  "URL": "https://en.wiktionary.org/wiki/brin",
+  "Title": "brin - Wiktionary"
+}
+Relevant (Y/N)?N
+Result: 4
+{
+  "Summary": "Introduction. BRIN stands for Block Range Index. BRIN is designed for handling \nvery large tables in which certain columns have some natural correlation with\u00a0...",
+  "URL": "https://www.postgresql.org/docs/9.5/brin-intro.html",
+  "Title": "BRIN Indexes"
+}
+Relevant (Y/N)?N
+Result: 5
+{
+  "Summary": "Jan 28, 2017 ... Brin's family emigrated from the Soviet Union to the United States in 1979 to \nescape Jewish persecution. Google's CEO, Sundar Pichai, is also an\u00a0...",
+  "URL": "https://www.theverge.com/2017/1/28/14428262/google-sergey-brin",
+  "Title": "Google co-founder Sergey Brin joins protest against immigration ..."
+}
+Relevant (Y/N)?Y
+Result: 6
+{
+  "Summary": "BRIN is designed for handling very large tables in which certain columns have \nsome natural correlation with their physical location within the table. A block \nrange\u00a0...",
+  "URL": "https://www.postgresql.org/docs/12/brin-intro.html",
+  "Title": "BRIN index"
+}
+Relevant (Y/N)?N
+Result: 7
+{
+  "Summary": "Lauren R. Brin Hermans, MD. Dermatology. Scheduling new patients. Your \nresults. Choose a location. See more doctors. Make an appointment with the right\n\u00a0...",
+  "URL": "https://www.healthpartners.com/care/find/doctor/166026/",
+  "Title": "Lauren R. Brin Hermans, MD | HealthPartners & Park Nicollet"
+}
+Relevant (Y/N)?N
+Result: 8
+{
+  "Summary": "Matthew G. Brin. Professor Emeritus Ph.D., 1977, University of Wisconsin-\nMadison At Binghamton since 1978. Areas of Interest: Geometric topology,\u00a0...",
+  "URL": "https://www2.math.binghamton.edu/p/people/matt/start",
+  "Title": "Matthew G. Brin [Binghamton University Department of Mathematical ..."
+}
+Relevant (Y/N)?N
+Result: 9
+{
+  "Summary": "The Art of Brin Levinson.",
+  "URL": "https://www.brinlevinson.com/",
+  "Title": "Brin Levinson"
+}
+Relevant (Y/N)?N
+FEEDBACK SUMMARY
+
+New precision: 0.3
+
+Query       = Brin Sergey brin
+Still below the desired precision: 0.9
+Result: 0
+{
+  "Summary": "Sergey Mikhaylovich Brin is an American computer scientist and Internet \nentrepreneur. Together with Larry Page, he co-founded Google. Brin was the \npresident\u00a0...",
+  "URL": "https://en.wikipedia.org/wiki/Sergey_Brin",
+  "Title": "Sergey Brin - Wikipedia"
+}
+Relevant (Y/N)?Y
+Result: 1
+{
+  "Summary": "Sergey Brin stepped down as president of Alphabet, parent company of Google, \nin December 2019 but remains a controller shareholder and a board member.",
+  "URL": "https://www.forbes.com/profile/sergey-brin/",
+  "Title": "Sergey Brin"
+}
+Relevant (Y/N)?Y
+Result: 2
+{
+  "Summary": "Dec 4, 2019 ... Sergey Brin is a computer scientist who created Google with Larry Page, the two \nbecoming billionaires as Google developed into the world's\u00a0...",
+  "URL": "https://www.biography.com/business-figure/sergey-brin",
+  "Title": "Sergey Brin - Education, Google & Wife - Biography"
+}
+Relevant (Y/N)?Y
+Result: 3
+{
+  "Summary": "# 10 Sergey Brin $70.3B. Random fact: Attended a 2010 NASA conference \nremotely via the \"BrinBot\" robot.",
+  "URL": "https://www.bloomberg.com/billionaires/profiles/sergey-brin/",
+  "Title": "Bloomberg Billionaires Index - Sergey Brin"
+}
+Relevant (Y/N)?Y
+Result: 4
+{
+  "Summary": "Jan 28, 2017 ... Sergey Brin, Google co-founder and president of Alphabet, joined protesters at \nSan Francisco International Airport tonight as demonstrators\u00a0...",
+  "URL": "https://www.theverge.com/2017/1/28/14428262/google-sergey-brin",
+  "Title": "Google co-founder Sergey Brin joins protest against immigration ..."
+}
+Relevant (Y/N)?Y
+Result: 5
+{
+  "Summary": "Sergey Brin's Home Page. Ph.D. student in Computer Science at Stanford - \nsergey@cs.stanford.edu. Research. Currently I am at Google. In fall '98 I taught \nCS\u00a0...",
+  "URL": "infolab.stanford.edu/~sergey/",
+  "Title": "Sergey Brin"
+}
+Relevant (Y/N)?Y
+Result: 6
+{
+  "Summary": "Jul 29, 2020 ... Brin's humanitarian airship company LTA is trying to reinvent airships for the 21st \ncentury.",
+  "URL": "https://spectrum.ieee.org/tech-talk/.../sergey-brins-revolutionary-20-airship",
+  "Title": "Sergey Brin's Revolutionary $19 Airship - IEEE Spectrum"
+}
+Relevant (Y/N)?Y
+Result: 7
+{
+  "Summary": "Sergey Brin, American computer scientist and entrepreneur who created, along \nwith Larry Page, the online search engine Google, one of the most successful\u00a0...",
+  "URL": "https://www.britannica.com/biography/Sergey-Brin",
+  "Title": "Sergey Brin | Biography, Google, & Facts | Britannica"
+}
+Relevant (Y/N)?Y
+Result: 8
+{
+  "Summary": "May 17, 2013 ... It's not a demo, more of a philosophical argument: Why did Sergey Brin and his \nteam at Google want to build an eye-mounted camera/computer\u00a0...",
+  "URL": "https://www.youtube.com/watch?v=IessjPY9gwI",
+  "Title": "Sergey Brin: Why Google Glass? - YouTube"
+}
+Relevant (Y/N)?Y
+Result: 9
+{
+  "Summary": "Jun 22, 2010 ... Buried deep within each cell in Sergey Brin's body\u2014in a gene called LRRK2, \nwhich sits on the 12th chromosome\u2014is a genetic mutation that\u00a0...",
+  "URL": "https://www.wired.com/2010/06/ff-sergeys-search/",
+  "Title": "Sergey Brin's Search for a Parkinson's Cure | WIRED"
+}
+Relevant (Y/N)?Y
+FEEDBACK SUMMARY
+
+Query: Brin Sergey brin
+
+Current precision 1.0 
+
+Target precision 0.9 achieved, done
+
+//////////////////////////////////////////////////////////////////////////////////
+
+~/Desktop/GMiner/proj1$ python3 info_retrieval_system.py Your-Search-Engine-ID 011560707485097968922:jk7pzzw71h5 0.9 "jaguar"
+Parameters:
+Client key  = Your-Search-Engine-ID
+Engine key  = 011560707485097968922:jk7pzzw71h5
+Query       = ['jaguar']
+Precision   = 0.9
+Google Search Results:
+==============================
+Result: 0
+{
+  "URL": "https://www.jaguarusa.com/index.html",
+  "Summary": "The official home of Jaguar USA. Explore our luxury sedans, SUVs and sports \ncars. Build Your Own, Book a Test Drive or Find a Retailer near you.",
+  "Title": "Jaguar Sedans, SUVs and Sports Cars - Official Site | Jaguar USA"
+}
+Relevant (Y/N)?N
+Result: 1
+{
+  "URL": "https://www.jaguar.com/market-selector.html",
+  "Summary": "... Rover - Above and Beyond. Land Rover. Faded out winding mountain pass. \nVIEW JAGUAR IN YOUR MARKET. ASIA PACIFIC. AUSTRALIA \u00b7 BANGLADESH.",
+  "Title": "Market Selector | Jaguar | View the site in your preferred language"
+}
+Relevant (Y/N)?N
+Result: 2
+{
+  "URL": "https://en.wikipedia.org/wiki/Jaguar",
+  "Summary": "The jaguar (Panthera onca) is a large felid species and the only extant member \nof the genus Panthera native to the Americas. The jaguar's present range\u00a0...",
+  "Title": "Jaguar - Wikipedia"
+}
+Relevant (Y/N)?Y
+Result: 3
+{
+  "URL": "https://www.jaguar.com/index.html",
+  "Summary": "The official website of Jaguar. Discover our range of vehicles from the XE, XF, XJ, \nF-Type, F-PACE, E-PACE & our all-electric sports car I-PACE.",
+  "Title": "Jaguar: Luxury Saloons, Performance SUVs & Sports Cars"
+}
+Relevant (Y/N)?N
+Result: 4
+{
+  "URL": "https://en.wikipedia.org/wiki/Jaguar_Cars",
+  "Summary": "Jaguar is the luxury vehicle brand of Jaguar Land Rover, a British multinational \ncar manufacturer with its headquarters in Whitley, Coventry, England. Jaguar\u00a0...",
+  "Title": "Jaguar Cars - Wikipedia"
+}
+Relevant (Y/N)?N
+Result: 5
+{
+  "URL": "https://media.jaguar.com/en",
+  "Summary": "JAGUAR CLASSIC WILL CELEBRATE 60 YEARS OF E-TYPE IN 2021 WITH \nANNIVER... Jaguar Classic will create six matched pairs of E-types to celebrate \nthe\u00a0...",
+  "Title": "Jaguar Homepage International"
+}
+Relevant (Y/N)?N
+Result: 6
+{
+  "URL": "https://www.facebook.com/Jaguar/",
+  "Summary": "Jaguar. 17946399 likes \u00b7 1347 talking about this \u00b7 1227 were here. Jaguar. The \nArt of Performance.",
+  "Title": "Jaguar - Home | Facebook"
+}
+Relevant (Y/N)?N
+Result: 7
+{
+  "URL": "https://www.nationalgeographic.com/animals/mammals/j/jaguar/",
+  "Summary": "What is the jaguar? Jaguars are the only big cat in the Americas and the third \nbiggest in the world after tigers and lions. They look a lot like\u00a0...",
+  "Title": "Jaguar, facts and photos"
+}
+Relevant (Y/N)?H
+Please type in Y|y for yes, N|n for no
+Relevant (Y/N)?Y
+Result: 8
+{
+  "URL": "https://www.worldwildlife.org/species/jaguar",
+  "Summary": "WWF has worked with the government of Brazil to successfully protect large \nblocks of Amazon forest for the jaguar. In Peru, WWF continues to track jaguars to\n\u00a0...",
+  "Title": "Jaguar | Species | WWF"
+}
+Relevant (Y/N)?Y
+Result: 9
+{
+  "URL": "https://jaguarrestaurant.com/",
+  "Summary": "Latin American Habitat. Respected and revered for thousand of years, the jaguar \nhas played an important role in the ecosystems of its natural habitat, Central\u00a0...",
+  "Title": "Jaguar Restaurant: Home"
+}
+Relevant (Y/N)?Y
+FEEDBACK SUMMARY
+
+New precision: 0.4
+
+Query       = WWF Panthera jaguar
+Still below the desired precision: 0.9
+Result: 0
+{
+  "URL": "https://www.worldwildlife.org/species/jaguar",
+  "Summary": "Facts. NT Status. Near Threatened. Scientific Name. Panthera onca. Length. Up \nto 6 ft. Habitats. Forests, Grasslands. Jaguars are strong swimmers and climbers\n\u00a0...",
+  "Title": "Jaguar | Species | WWF"
+}
+Relevant (Y/N)?Y
+Result: 1
+{
+  "URL": "https://www.wwf.org.uk/learn/wildlife/jaguars",
+  "Summary": "Jaguar species: Jaguar. Near threatened (Around 170000 remain) Panthera \nonca. Affected by: Habitat loss and fragmentation , Human wildlife conflict , Illegal\n\u00a0...",
+  "Title": "Jaguar | WWF"
+}
+Relevant (Y/N)?Y
+Result: 2
+{
+  "URL": "https://www.worldwildlife.org/.../jaguar-collaring-mission-reveals-flourishing -population-off-the-coast-of-brazil",
+  "Summary": "Nov 29, 2019 ... WWF has collaborated with partners to successfully tag three wild jaguars with \nspecial ... Camera trap of a jaguar (Panthera onca) in Brazil.",
+  "Title": "Jaguar collaring mission reveals flourishing population off the coast ..."
+}
+Relevant (Y/N)?Y
+Result: 3
+{
+  "URL": "https://wwf.panda.org/wwf_news/press_releases/?338716/...to...Jaguar",
+  "Summary": "Nov 20, 2018 ... Panthera Conservation Science Executive Director, Dr. Howard Quigley, stated, \u201c\nToday represents a true landmark for the future of the jaguar.",
+  "Title": "Latin America Launches New Roadmap to Save the Jaguar | WWF"
+}
+Relevant (Y/N)?Y
+Result: 4
+{
+  "URL": "https://awsassets.panda.org/.../2010_exploitation_of_the_jaguar_and_other_ large_forest_cats_in_suriname_irvin_kerman.pdf",
+  "Summary": "Commissioned by WWF Guianas under its Wildlife Management ... Amongst the \nvery special species found in the Guianas is the jaguar, Panthera onca,.",
+  "Title": "Exploitation of the jaguar, Panthera onca and other large forest cats ..."
+}
+Relevant (Y/N)?Y
+Result: 5
+{
+  "URL": "https://wwf.ca/.../wwf-gift-guide-adopt-three-big-cats-this-national-cat-day/",
+  "Summary": "Oct 29, 2015 ... ... only member of the Panthera genus to be found in the Americas and is by far \nthe biggest cat on the continent. The jaguar's range, which once\u00a0...",
+  "Title": "WWF Gift Guide: Adopt three big cats this National Cat Day"
+}
+Relevant (Y/N)?Y
+Result: 6
+{
+  "URL": "https://www.journeyofthejaguar.org/.../november-29-is-now-international- jaguar-day/",
+  "Summary": "... World Wildlife Fund (WWF), Wildlife Conservation Society (WCS), Panthera \nand government representatives from 14 jaguar range states have announced \nthe\u00a0...",
+  "Title": "November 29 is Now International Jaguar Day - Journey of the Jaguar"
+}
+Relevant (Y/N)?Y
+Result: 7
+{
+  "URL": "https://twitter.com/PantheraCats/status/1064964898222829568",
+  "Summary": "Nov 20, 2018 ... Panthera, @WWF, @TheWCS, @UNDP & jaguar range states have launched the \nJaguar 2030 Conservation Roadmap at the #COP14.",
+  "Title": "PantheraCats on Twitter: \"Today we jump for #jaguars! Panthera ..."
+}
+Relevant (Y/N)?Y
+Result: 8
+{
+  "URL": "https://www.internationaljaguarday.org/jaguar-conservation-roadmap",
+  "Summary": "In an unprecedented global commitment to save the jaguar, international \nconservation organizations (WCS, Panthera, WWF and UNDP) and 14 jaguar \nrange\u00a0...",
+  "Title": "Jaguar Roadmap \u2014 November 29"
+}
+Relevant (Y/N)?Y
+Result: 9
+{
+  "URL": "https://www.wwf.org.pe/en/?208769/Crazycatnumbers",
+  "Summary": "May 24, 2013 ... \u00a9 BRIT / WWF-AREAS_Amazonia. By: Zach Fitzner Mongabay.com. Jaguars (\nPanthera onca) are\u00a0...",
+  "Title": "Crazy cat numbers: unusually high jaguar densities discovered in ..."
+}
+Relevant (Y/N)?Y
+FEEDBACK SUMMARY
+
+Query: WWF Panthera jaguar
+
+Current precision 1.0 
+
+Target precision 0.9 achieved, done
