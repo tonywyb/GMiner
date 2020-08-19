@@ -1,7 +1,7 @@
 # GMiner
 A Rule&amp;Relation Extractor Based on Google Custom Search
 
-* [Project 1: Rocchio Algorithm with TF-IDF](GMiner/proj1/README.md): Implement an information retrieval system that exploits user-provided feedback to improve the search results returned by Google.
+* [Project 1: Rocchio Algorithm with TF-IDF](proj1/README.md): Implement an information retrieval system that exploits user-provided feedback to improve the search results returned by Google.
 
 1. Receive as input a user query, which is simply a list of words, and a value—between 0 and 1—for the target “precision@10”.
 
