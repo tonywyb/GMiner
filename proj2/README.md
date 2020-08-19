@@ -1,5 +1,32 @@
 #6111-proj2 README
 
+
+## Overview
+
+The program basically performs the following steps:
+
+1. Initialize X, the set of extracted tuples, as the empty set.
+
+2. Query Google Custom Search Engine to obtain the URLs for the top-10 webpages for query q.
+
+3. For each URL from the previous step that is not processed before:
+
+- Retrieve the corresponding webpage; if you cannot retrieve the webpage (e.g., because of a timeout), just skip it and move on, even if this involves processing fewer than 10 webpages in this iteration.
+
+- Extract the actual plain text from the webpage using Apache Tika or your preferred toolkit.
+
+- If the resulting plain text is longer than 20,000 characters, truncate the text to its first 20,000 characters (for efficiency) and discard the rest.
+
+- Annotate the text with the Stanford CoreNLP software suite and, in particular, with the Stanford KBP Annotator, to extract all instances of the relation specified by input parameter r. 
+
+- Identify the tuples that have an associated extraction confidence of at least t and add them to set X.
+
+4. Remove exact duplicates from set X: if X contains tuples that are identical to each other, keep only the copy that has the highest extraction confidence and remove from X the duplicate copies.
+
+5. If X contains at least k tuples, return the top-k such tuples sorted in decreasing order by extraction confidence, together with the extraction confidence of each tuple, and stop. 
+
+6. Otherwise, select from X a tuple y such that (1) y has not been used for querying yet and (2) y has an extraction confidence that is highest among the tuples in X that have not yet been used for querying. Create a query q from tuple y by just concatenating the attribute values together, and go to Step 2. If no such y tuple exists, then stop. 
+
 ## Files
 - info_extraction_system.py
 - README.pdf
