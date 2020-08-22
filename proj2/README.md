@@ -1,4 +1,4 @@
-#6111-proj2 README
+# 6111-proj2 README
 
 
 ## Overview
