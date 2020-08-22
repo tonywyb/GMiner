@@ -16,7 +16,7 @@ The program basically performs the following steps:
 
 ## Files
 - association_rule_mining.py
-- README.pdf
+- README.md
 - example-run.txt
 - INTEGRATED-DATASET file
 
