@@ -44,7 +44,11 @@ The structure of the code can be divided into several parts including prompting 
 ## Query modification method
 The main methods to modify query are `generate_doc_vec()` and `Rocchio()`. 
 
-In `generate_doc_vec()`, the original document results passed in will be divided into words to get term frequency, total term count, and inverse document frequency by iterating through each word in the documents. Then, the weight variable will store the score of each term, if the term frequency of one word is 0, then the weight will also be 0, otherwise, the weight for that word will be calculated based on the formula: ![formula](https://render.githubusercontent.com/render/math?math=(1+log_{10}(tf_{t,d})*log_{10}(N/df_t)) where tf is the term frequency and df is the document frequency. 
+In `generate_doc_vec()`, the original document results passed in will be divided into words to get term frequency, total term count, and inverse document frequency by iterating through each word in the documents. Then, the weight variable will store the score of each term, if the term frequency of one word is 0, then the weight will also be 0, otherwise, the weight for that word will be calculated based on the formula: 
+\begin{equation}
+$ (1 + log_{10}(tf_{t,d})) * log_{10}(N/df_t)$ 
+\end{equation}
+where tf is the term frequency and df is the document frequency. 
 
 In `Rocchio()`, calculate the term weight for each word according to the Rocchio formula: $$ q_{new} = \alpha * q_{old} + \frac{\beta * d_j}{R} - \frac{\gamma * d_j}{NR}$$. Alpha, beta and gamma are specified by default setting from reading materials provided in project instructions (alpha: 1.0, beta: 0.75, gamma: 0.15) [(Relevance feedback and query
 expansion)](https://nlp.stanford.edu/IR-book/pdf/09expand.pdf). 
