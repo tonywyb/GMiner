@@ -29,8 +29,8 @@ The program basically performs the following steps:
 
 ## Files
 - info_extraction_system.py
-- README.pdf
-- Transcript.jpg
+- README.md
+- transcript.txt
 
 ## How to run the program
 Prerequisite: install `python == 3.7.6`, `google-api-python-client`[See more config details here](https://github.com/googleapis/google-api-python-client), `Java 13`[link](https://download.java.net), `stanfordnlp`[link](https://stanfordnlp.github.io/CoreNLP/), `StanfordNLP Python package`[link](https://stanfordnlp.github.io/stanfordnlp/installation_usage.html#installation).
