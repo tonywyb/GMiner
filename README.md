@@ -1,5 +1,6 @@
 # GMiner
 *This project is an excerpt of course assignment implementation of COMS 6111 - ADVANCED DATABASE SYSTEMS, Spring 2020.* 
+
 A Rule&Relation Extractor Based on Google Custom Search
 
 * [Project 1: Word-Sense disambiguator for Google Search Enhancement](proj1/README.md): Implement an information retrieval system that exploits user-provided feedback to improve the search results returned by Google. It is implemented by Rocchio Algorithm with TF-IDF Embedding.
